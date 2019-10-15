@@ -5,7 +5,8 @@
   "scripts": {
     "server": "live-server",
     "webpack": "webpack --watch",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "build": "webpack -p"
   },
   "keywords": [],
   "author": "",
