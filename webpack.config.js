@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   entry: path.resolve(__dirname, 'index.js'),
   output: {
-    path: path.resolve(__dirname, 'bundle'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   devtool: 'source-map',
@@ -17,7 +17,7 @@ module.exports = {
     // new BundleAnalyzer()
   ],
   devServer: {
-    publicPath: path.resolve(__dirname, '/bundle/'),
+    publicPath: path.resolve(__dirname, '/public/'),
     historyApiFallback: true,
     port: 9000
   },
